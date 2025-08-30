@@ -1,0 +1,13 @@
+[package]
+name = "vehicle-manager-axum"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+axum = { version = "0.8.4", features = ["http2", "macros", "ws"] }
+serde = { version = "1.0.219", features = ["derive"] }
+serde_json = "1.0.143"
+thiserror = "2.0.16"
+tokio = { version = "1.47.1", features = ["full"] }
+uuid = { version = "1.18.0", features = ["v7", "serde"] }
+validator = { version = "0.20.0", features = ["derive"] }
