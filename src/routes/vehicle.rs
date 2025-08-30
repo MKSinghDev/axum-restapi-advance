@@ -1,6 +1,6 @@
 use crate::{
     AppState,
-    vehicle::{
+    features::vehicle::{
         handler::{get_vehicle, get_vehicles, post_vehicle},
         repo::InMemoryVehicleRepo,
     },

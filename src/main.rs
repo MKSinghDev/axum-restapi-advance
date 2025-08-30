@@ -1,8 +1,8 @@
+mod features;
 mod routes;
 mod utils;
-mod vehicle;
 
-use crate::{routes::routes, vehicle::repo::InMemoryVehicleRepo};
+use crate::{features::vehicle::repo::InMemoryVehicleRepo, routes::routes};
 use tokio::net::TcpListener;
 
 #[derive(Clone)]

@@ -1,4 +1,4 @@
-use crate::vehicle::model::{Vehicle, VehicleId};
+use crate::features::vehicle::model::{Vehicle, VehicleId};
 use std::{
     collections::HashMap,
     sync::{Arc, Mutex},

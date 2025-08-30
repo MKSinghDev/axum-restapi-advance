@@ -7,11 +7,11 @@ use uuid::Uuid;
 
 use crate::{
     AppState,
-    utils::validator::ValidatedPayload,
-    vehicle::{
+    features::vehicle::{
         model::{Vehicle, VehicleId},
         repo::{InMemoryVehicleRepo, VehicleRepo},
     },
+    utils::validator::ValidatedPayload,
 };
 
 #[debug_handler]
